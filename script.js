@@ -5,8 +5,8 @@ function volume_sphere() {
 		event.preventDefault();
 		 let radius= document.getElementById("radius").value;
 		let volume ;
-		if (isNaN(radius) || radius < =0) {
-            volume = 'Invalid input';
+		if (isNaN(radius) || radius < 0) {
+            volume = 'NaN';
         } else {
             radius = parseFloat(radius); // Convert to a number
             volume = (4 / 3) * Math.PI * Math.pow(radius, 3);

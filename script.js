@@ -5,7 +5,7 @@ function volume_sphere() {
 		event.preventDefault();
 		 let radius= document.getElementById("radius").value;
 		let volume ;
-		if (isNaN(radius) || radius < 0) {
+		if (isNaN(radius) || radius < =0) {
             volume = 'Invalid input';
         } else {
             radius = parseFloat(radius); // Convert to a number
